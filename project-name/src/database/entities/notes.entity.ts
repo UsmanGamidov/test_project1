@@ -6,10 +6,7 @@ export class NotesEntity {
   id: number;
 
   @Column()
-  name: string;
-
-  @Column()
-  password: string;
+  user_id: number
 
   @Column()
   text: string;
