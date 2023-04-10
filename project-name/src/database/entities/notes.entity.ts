@@ -6,7 +6,7 @@ export class NotesEntity {
   id: number;
 
   @Column()
-  user_id: number
+  user_id: number;
 
   @Column()
   text: string;
